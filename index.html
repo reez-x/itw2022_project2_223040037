@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger fw-bold">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Fried Chicken</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-light">
+                  <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+                  <a class="nav-link" href="#best-seller">Best seller</a>
+                  <a class="nav-link" href="#discount">Discount</a>
+                  <a class="nav-link" href="#order">Order</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+
+    <!-- Home -->
+        <h6 class="text-center"></h6>
+        <div class="parallax"></div>
+        <div class="home-text" style="height:8px;font-size:36px;background-color: rgb(220, 220, 220);" >
+        </div>
+        <div style="height:200px;font-size:36px;">
+            <div class="badge bg-danger text-wrap" style="width: 100%;height: 11.7vh;padding-top: 13px;">
+                What do you call a bird that’s afraid to fly?<br>Chicken ~(˘▾˘~)
+              </div>
+        </div>
+    <!-- End Home -->
+
+    <!-- Best seller -->
+    <section class="container best-seller text-center" style="height: 75vh;" id="best-seller">
+        <h3>Try our best seller</h3>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="img/Best seller/bottom-view-chicken-nuggets-lettuce-cherry-tomatoes-pan-dark-red-background.jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">Delicious chicken nuggets with lettuce cherry and tomatoes</p>
+                        </div>
+                      </div>
+                  
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="img/Best seller/crispy-fried-chicken-plate-with-tomato-sauce.jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">Crispy fried chicken with tomato sauce</p>
+                        </div>
+                      </div>
+                  
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="img/Best seller/deep-fried-fhicken-roll-dark-surface.jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">Fried chicken roll with hot sauce</p>
+                        </div>
+                      </div>
+                  
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="img/Best seller/fried-chicken-french-fries-black-cement-floor (1).jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">A bucket of chicken wings with french fries</p>
+                        </div>
+                      </div>
+                  
+                </div>
+            </div>
+    </section>
+    <!-- Discount -->
+    <section class="best-seller container best-seller text-center bg-danger rounded" style="height: 100vh;padding-top: 80px;" id="discount">
+        <h3 class="text-light">Get limited discount only here !!</h3>
+            <div class="row">
+                <div class="" style="width: 400px;">
+                    <div class="card">
+                        <img src="img/discount/Food-Banner-08.jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">Delicious chicken nuggets with lettuce cherry and tomatoes</p>
+                        </div>
+                      </div>
+                  
+                </div>
+                <div class="" style="width: 400px;">
+                    <div class="card">
+                        <img src="img/discount/food_banner_32.jpg" class="card-img-top" alt="bestseller1">
+                        <div class="card-body bg-danger">
+                          <p class="card-text text-white">Crispy fried chicken with tomato sauce</p>
+                        </div>
+                      </div>
+                  
+                </div>
+                
+            </div>
+    </section>
+    <!-- End Discount -->
+
+    <!-- Order -->
+    <span class="border border-danger">
+    <div class="order container text-center" style="height: 50vh;padding-top: 100px;" id="order">
+        <h3>Order Here</h3>
+        <div class="dropdown" style="margin: 20px;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              What do you wanna order
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Package 1 - Chicken nuggets</a></li>
+              <li><a class="dropdown-item" href="#">Package 2 - A bucket of fried chickens</a></li>
+              <li><a class="dropdown-item" href="#">Package 3 - French fries</a></li>
+            </ul>
+          </div>
+          <input style="width: 250px;margin-left:523px ;margin-bottom: 20px;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Put discount code here">
+          <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+    </span>
+    <!-- End order -->
+
+    <!-- Contact -->
+    <div class="bg-danger" id="contact">
+    <div class="container" style="padding-top: 100px;">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Any suggest for us</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+    <!-- End Contact -->
+
+<style>
+    .order{
+        align-items: center;
+        text-align: center;
+    }
+    .best-seller row{
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+    head{
+        font-family: 'Bebas Neue', cursive;
+    }
+    .best-seller h3{
+        font-family: 'Poppins', sans-serif;
+    }
+    .parallax {
+      /* The image used */
+      background-image: url("img/home/fried-chicken-french-fries-black-cement-floor.jpg");
+    
+      /* Set a specific height */
+      min-height: 550px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+
+  </body>
+</html>
